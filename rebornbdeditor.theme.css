@@ -1,27 +1,50 @@
 /**
- * @name Reborn-BDeditor
- * @author MonsterDev
- * @version 1.5
- * @description Phoenix Theme Bundle: Transparent, fully customizable theme with multiple addons.
- * @invite TeRQEPb
- * @authorId 402272736665272320
- * @source https://github.com/monstrousdev/themes/theme-files/Reborn.theme.css
- * @BDEditor Reborn
+ * @name         Reborn
+ * @description  Phoenix Theme Bundle: Transparent, fully customizable theme with multiple addons
+ * @author       MonsterDev
+ * @version      1.5
+ * @donate       https://goo.gl/9S8VGb
+ * @source       https://github.com/monstrousdev/themes/theme-files/Reborn.theme.css
+ * @invite       TeRQEPb
+ * @authorId     402272736665272320
+ */
+
+/* IMPORT CSS FROM GITHUB */
+@import "https://monstrousdev.github.io/themes/phoenix-bundle/reborn.css";
+/*
+===== IMPORTANT =====
+CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+
+Registered: Black Box Theme
+
+===== CUSTOMIZABLE COLORS AND IMAGES =====
 */
 
-@import url('https://monstrousdev.github.io/themes/phoenix-bundle/reborn.css');
-
 :root {
-  --background-image: url('https://i.imgur.com/as1vvwI.jpg');
-  --popup-background: url('https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg');
-  --background-blur: 0px;
-  --background-darkness: 0.75;
-  --main-color: #007dbd;
-  --hover-color: #03679b;
-  --roundness: 50px;
-  --shadow: rgba(0,0,0,.4);
+  --roundness: 50px; /* edit roundness of icons from 0px to 50px */
+ --main-color: #007dbd; /* Main Color */     
+  --hover-color: #03679b; /* Hover Color */
+  --home-color: #eee; /* Change home icon color */
+  --home-size: 24px; /* size of the home icon */
+  --shadow: rgba(0,0,0,.4); /* change to darken lighten, or set to transparent */
+ --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg); /* change background */
+  --background-blur: 0px; /* Main Background Blur */
+--popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);  /* Background for popups and modals */
+  --background-darkness: 0.75; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
 }
 
-/* Any custom CSS below here */
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CREDITS =====
+URI
+BEARDDESIGN
+ZERTHOX
+THESE PEOPLE HAVE HELPED CREATE THIS THEME IN ONE WAY OR THE OTHER.
+===== TROUBLESHOOTING =====
+IF YOU NEED ANY HELP GO TO https://discord.gg/TeRQEPb
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
 
 
